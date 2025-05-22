@@ -1,0 +1,132 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "pizza collection",
+    "collectionId": "60dfc0b9-598c-49c0-beb5-ca0ab51736ee",
+    "dateExported": "2024-08-27T15:52:06.938Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "74406ae7-0300-4eee-9d55-c88fb5d04621",
+            "colId": "60dfc0b9-598c-49c0-beb5-ca0ab51736ee",
+            "containerId": "",
+            "name": "login user",
+            "url": "http://localhost:3000/users/login",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-08-27T15:45:31.582Z",
+            "modified": "2024-08-27T15:46:09.124Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\r\n    \"username\":\"darwin\",\r\n    \"password\":\"darwin123\"\r\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "ecfdde1a-0e55-4a95-8cbb-a90ec3fad319",
+            "colId": "60dfc0b9-598c-49c0-beb5-ca0ab51736ee",
+            "containerId": "",
+            "name": "register user",
+            "url": "http://localhost:3000/users/register",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-08-27T15:46:30.247Z",
+            "modified": "2024-08-27T15:47:23.393Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\r\n    \"username\":\"darwin\",\r\n    \"password\":\"darwin123\"\r\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "c6dab602-ded8-40d3-be48-9abd048a047b",
+            "colId": "60dfc0b9-598c-49c0-beb5-ca0ab51736ee",
+            "containerId": "",
+            "name": "get pizza",
+            "url": "http://localhost:3000/pizzas/get/2",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2024-08-27T15:48:24.427Z",
+            "modified": "2024-08-27T15:48:42.601Z",
+            "headers": []
+        },
+        {
+            "_id": "7a5e3546-57e8-4981-a608-d0925600d979",
+            "colId": "60dfc0b9-598c-49c0-beb5-ca0ab51736ee",
+            "containerId": "",
+            "name": "create pizza",
+            "url": "http://localhost:3000/pizzas/create",
+            "method": "POST",
+            "sortNum": 60000,
+            "created": "2024-08-27T15:48:56.184Z",
+            "modified": "2024-08-27T15:49:10.612Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\r\n    \"name\":\"darwin\",\r\n    \"description\":\"darwin123\",\r\n    \"price\":\"123\",\r\n    \"size\":\"Medium\",\r\n    \"flavour\":\"Cheese\"\r\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "b9a7bbd8-831a-4f89-83f2-9e5e24128c48",
+            "colId": "60dfc0b9-598c-49c0-beb5-ca0ab51736ee",
+            "containerId": "",
+            "name": "edit pizza",
+            "url": "http://localhost:3000/pizzas/edit/3",
+            "method": "PUT",
+            "sortNum": 70000,
+            "created": "2024-08-27T15:49:24.680Z",
+            "modified": "2024-08-27T15:49:33.471Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\r\n    \"name\":\"darwin\",\r\n    \"description\":\"darwin123\",\r\n    \"price\":\"123\",\r\n    \"size\":\"Medium\",\r\n    \"flavour\":\"Cheese\"\r\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "2cee8932-b203-42ab-998e-a74799c12462",
+            "colId": "60dfc0b9-598c-49c0-beb5-ca0ab51736ee",
+            "containerId": "",
+            "name": "delete pizza",
+            "url": "http://localhost:3000/pizzas/delete/3",
+            "method": "DELETE",
+            "sortNum": 80000,
+            "created": "2024-08-27T15:49:59.070Z",
+            "modified": "2024-08-27T15:50:20.224Z",
+            "headers": []
+        },
+        {
+            "_id": "63e557ef-b24c-44e3-99f7-e82efddff9a7",
+            "colId": "60dfc0b9-598c-49c0-beb5-ca0ab51736ee",
+            "containerId": "",
+            "name": "get review",
+            "url": "http://localhost:3000/reviews/get/3",
+            "method": "GET",
+            "sortNum": 90000,
+            "created": "2024-08-27T15:50:32.585Z",
+            "modified": "2024-08-27T15:51:02.549Z",
+            "headers": []
+        },
+        {
+            "_id": "bf0cac9f-ec4a-4da3-a3df-942b0bee5594",
+            "colId": "60dfc0b9-598c-49c0-beb5-ca0ab51736ee",
+            "containerId": "",
+            "name": "create review",
+            "url": "http://localhost:3000/reviews/create",
+            "method": "POST",
+            "sortNum": 100000,
+            "created": "2024-08-27T15:51:23.337Z",
+            "modified": "2024-08-27T15:51:33.510Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\r\n    \"pizza_id\":\"3\",\r\n    \"user_id\":\"2\",\r\n    \"username\":\"darwin\",\r\n    \"review_text\":\"darwin123\"\r\n}",
+                "form": []
+            }
+        }
+    ],
+    "ref": "9T-Zug7PRviLP0DWAiWywTh99Je_uxqJ5QoAYeG16hV5Lx6771DzFXo90k97b8mOXG9jt5IHOexPAkbWKgJrCw"
+}
